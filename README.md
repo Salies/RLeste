@@ -14,8 +14,17 @@ which should be good throughout the whole game.
 Solutions can be visualized with [CelesteTAS](https://github.com/CelesteClassic/ClassicTAS/tree/master/Celeste)
 after converting the output to a supported format.
 
+## Related works
+
+[[1](https://dl.acm.org/doi/10.1145/3723498.3723796)] Uses a modified version of the A* algorithm to solve Celeste 2018 levels.
+Really neat concept, but unfortunately I couldn't find the actual implementation.
+
+[[2](https://www.youtube.com/watch?v=y8g1AcTYovg)][[3](https://git.betalupi.com/Mark/celeste-ai/raw/branch/master/report/main.pdf)] Use genetic programming and RL/DQN respectively, but are checkpoint-based.
+My main goal was to use little to no human assistance/preconditioning.
+
 ## TODOs
 1. Port the solution to [Ray RLib](https://docs.ray.io/en/latest/rllib/index.html) so we can use [action masking](https://github.com/ray-project/ray/blob/3a60beec28c1f9a2d132b6dba40cc5fc5c3aa879/rllib/examples/envs/classes/action_mask_env.py) (only take valid actions at each frame).
 2. Improve the reward rule so it's more generalized and (maybe) accomplishes many objectives at once (getting keys, strawberries, etc.).
 3. Optimize the time penalty or the time logic as a whole so the agent is faster (learns to speedrun).
 4. Strawberries!
+5. Penalize input count (input optimization). (maybe)
