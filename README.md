@@ -1,6 +1,6 @@
 # RLeste
 
-![RLeste](https://i.imgur.com/r71ZG9D.gif)
+<img src="https://i.imgur.com/r71ZG9D.gif" alt="RLeste" width="256">
 
 A reinforcement learning implementation to solve [Celeste Classic](https://www.lexaloffle.com/bbs/?tid=2145).
 Based on the marvelous [Pyleste](https://github.com/CelesteClassic/Pyleste) emulator.
