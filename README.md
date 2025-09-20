@@ -5,11 +5,11 @@
 A reinforcement learning implementation to solve [Celeste Classic](https://www.lexaloffle.com/bbs/?tid=2145).
 Based on the marvelous [Pyleste](https://github.com/CelesteClassic/Pyleste) emulator.
 
-It currently uses a very simple reward heuristict that's enough
-for beating the first two levels.
-More complex levels (the ones with keys, for instance) would require
-more fleshed out heuristics, same if one wants to get the strawberries.
-The optimization is done through DQN tuned for high exploration, which should be good throughout the whole game.
+It currently uses a very simple reward heuristic that's enough for beating the first two levels.
+More complex levels (the ones with keys, for instance) would require more fleshed-out heuristics,
+the same if one wants to get the strawberries.
+The optimization is done through DQN tuned for high exploration,
+which should be good throughout the whole game.
 
 Solutions can be visualized with [CelesteTAS](https://github.com/CelesteClassic/ClassicTAS/tree/master/Celeste)
 after converting the output to a supported format.
